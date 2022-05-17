@@ -1,0 +1,66 @@
+body {
+  font-family: Arial;
+  margin: 0;
+}
+
+/* Header/Logo Title */
+.header {
+  padding: 2px;
+  text-align: center;
+  background: #85586F;
+  color: white;
+  font-size: 14px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.btn{
+	background-color: #F8ECD1;
+    border: none;
+    padding: 10px;
+    font-size: 16px;
+    border-radius: 10px;
+    cursor: pointer;
+    color: #AC7D88;
+}
+
+.btn:hover{
+	background-color: #ede1c7;
+}
+
+.header-title{
+	color: #F8ECD1;
+    margin-left: 10px;
+}
+
+/* Page Content */
+.content {
+	padding:20px;
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+}
+
+.gallery{
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 15px;
+  justify-content: center;
+  margin-left: 20%;
+}
+
+.gallery-img{
+  width: 50%;
+}
+
+.grid-item{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.grid-span {
+  word-break: break-word;
+  width: 274px;
+}

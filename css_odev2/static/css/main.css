@@ -1,0 +1,38 @@
+	.display{
+		display: flex; 
+		flex-direction: column; 
+		align-items: center;
+	}
+	.logo{
+		width: 351px; 
+		height: 113px;
+	}
+	.search_div{
+		background-color: #EEEEEE; 
+		width: 90%; 
+		margin-bottom: 2px;
+	}
+	.first_div{
+		background-color: #7EE5DA; 
+		width: 507.5px; 
+		height: 80px;  
+		justify-content: center; 
+		margin-right: 2px;
+	}
+	.second_div{
+		background-color: #70CCC2; 
+		width: 266px; 
+		height: 80px; 
+		justify-content: center; 
+		margin-right: 2px;
+	}
+	.last_div{
+		background-color: #62B3AA; 
+		width: 595px; 
+		height: 80px; 
+		justify-content: center;
+	}
+	.text{
+		font-weight: lighter; 
+		margin-bottom: -20px;
+	}
